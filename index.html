@@ -1,9 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Lab Exercise</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erich Chlouie "Klowi" De Torres | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+
+    <header class="hero-section">
+        <div class="superman-shield">
+            <span>S</span>
+        </div>
+        <h1>Erich Chlouie De Torres</h1>
+        <p class="subtitle">Alias: <span class="highlight">Klowi</span></p>
+    </header>
+
+    <main class="content-container">
+        <section class="card">
+            <h2>Hero Profile</h2>
+            <ul>
+                <li><strong>Age:</strong> <span id="dynamic-age">19</span></li>
+                <li><strong>Birthday:</strong> September 13, 2006</li>
+                <li><strong>Status:</strong> IT College Student & Tech Explorer</li>
+                <li><strong>Base of Operations:</strong> Cavite, Philippines</li>
+            </ul>
+        </section>
+
+        <section class="card interactive-card">
+            <h2>Kryptonian Control Panel</h2>
+            <p>Click the button below to activate your powers!</p>
+            <button id="hero-btn">Activate Heat Vision</button>
+            <p id="power-output" class="power-text"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Erich Chlouie "Klowi" De Torres. Built for Justice & Code.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
